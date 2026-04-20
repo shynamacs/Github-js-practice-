@@ -56,7 +56,7 @@ displayProfile(myProfile);
 //Q7
 function formatName(firstName, lastName) {
     const cleanFirst = firstName.trim();
-    const cleanLast = lastName.trim();
+    c=onst cleanLast = lastName.trim();
 
     const formattedFirst = cleanFirst.charAt(0).toUpperCase() + cleanFirst.slice(1).toLowerCase();
     const formattedLast = cleanLast.toUpperCase();
@@ -105,12 +105,15 @@ function summarizeStudent(students) {
     }
 
     return result;
-}
+}-
+//Q10
+
 
 let students = [
+
     { name: "Amara", score: 88 },
     { name: "Man", score: 66 },
-    { name: "Linda", score: 75 }
+    { name: "Linda", score: 75 },
 ];
 
 console.log(summarizeStudent(students));
